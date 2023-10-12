@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lattitude.aparel</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav style="display: flex; justify-content: space-between; align-items: center;">
+                <div style="display: flex;">
+                    <img src="./image/349997179_1319689368630240_2892602847539888027_n.jpg" alt="" width=80 height="80"
+                style="border-radius: 130%;">
+                <h1 style="padding-left: 5px; align-self: ;">Latitude.apparel</h1>
+                </div>
+                <div>
+                    <ul style="display: flex; list-style-type: none; justify-content: space-between;">
+                       <li><a href="#" style="margin: 5px; text-decoration: none;">Jersey Football</a></li><hr style=" border: 1px solid black; margin: 0px; padding: 0px;"> 
+                       <li><a href="#" style="margin: 5px; text-decoration: none;">Jersey Futsal</a></li><hr style="border: 1px solid black; margin: 0px; padding: 0px;">
+                       <li><a href="#" style="margin: 5px; text-decoration: none;">Jersey Basketball</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <input type="text" placeholder="search.." name="search" style="height: 12px;">
+
+                </div>
+            </nav>
+        </header> 
+        <hr style="margin-top: 13px;">
+        
+        <div class="container">
+            <p>Display Jersey</p>
+            <section style="display: flex; justify-content: space-around;">
+                <div class="left" style="display: flex; align-items: center; text-align: center;">
+                    <div class="contoh gambar">
+                        <img src="./image/kaos-futsal.jpg" alt="" width="180px">
+                        <div>
+                            <img src="./image/Koleksi-Desain-Jersey-Futsal-2019-300x287.jpg" alt="" width="140px">
+                            <img src="./image/unnamed.jpg" alt="" width="130px">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <form action="#">
+
+                        <h1>Pemesanan Produk</h1>  
+                        <p>Rp. 170.000</p>
+                        <p>Rate:☆☆☆☆☆ 26 Comment</p>
+                        <label for="jumlah pemesanan">Jumlah Pemesanan :</label>
+                        <input type="number" style="width: 40px;">
+                        <br/>
+                        <br/>
+                        <label for="Alamat">Alamat :</label> <br/>
+                        <textarea name="" id="" cols="25" rows="10"></textarea>
+                        <br>
+                        <br/>
+                        <button type="submit">Pesan</button>
+                        <button type="reset">Batal</button>
+                    </form>
+                </div>
+            </section>
+                <br/>
+                <br/>
+                <br/>
+                    <h3 style="margin-left: 20px;">Deskripsi Produk</h3>
+                    <p style="margin-left: 10px; font-size: 11px;">TERLENGKAP TERPECAYA TERCEPAT BAHAN PREMIUM ORIGINAL - 100% BENZEMA ORIGINAL - 100% MILANO DRYFIT - 100% AKTIF DRYFIT TIDAK PANAS BAHAN TIDAK AKAN LUNTUR KARNA MENGUNAKAN MESIN SUBLIME MOTIF DASAR PRINTING BAHAN SUPER ADEM,NYAMAN, MENYERAP KERINGAT KUALITAS JAHITAN KUAT DAN RAPI SABLON KUAT ANTI LUNTUR Karna MENGGUNAKAN DASAR PRINTING GARANSI 100%</p>
+        </div>
+        
+    
+</body>
+</html>
