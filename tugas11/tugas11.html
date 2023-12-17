@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghitung penjumlahan 2 bilangan</title>
+</head>
+<body>
+    <h2>Menghitung penjumlahan 2 bilangan</h2>
+
+    <label for="bil1"></label>
+    <input type="number" id="bil1" name="bil1" onchange="hasilBilangan()"/>
+
+    <p>+</p>
+
+    <label for="bil2"></label>
+    <input type="number" id="bil2" name="bil2" onchange="hasilBilangan()"/>
+
+    <p><span id="rumusBil"></span>  </p>
+
+    <script>
+        function hasilBilangan() {
+            let bil1 = parseFloat (document.getElementById("bil1").value);
+            let bil2 = parseFloat (document.getElementById("bil2").value);
+            let rumusBil = bil1 + bil2;
+            document.getElementById("rumusBil").innerText ="Hasilnya adalah = " + rumusBil;
+        }
+    </script>
+</body>
+</html>
